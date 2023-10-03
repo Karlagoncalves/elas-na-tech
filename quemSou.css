@@ -1,0 +1,80 @@
+.topo{
+    padding: 10px 0;
+    position: relative;
+    background: #f5eeba85;
+
+}
+
+.img-destaque{
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+
+
+.gato-img{
+    width: 330px;
+    margin: 0 auto;
+    display: block;
+}
+
+.banner-topo{
+    background: #f0f0fb;
+    padding-top: 20px;
+}
+
+.banner-topo .img-destaque{
+    max-width: 300px;
+
+}
+
+.cor-tema{
+    color: rgb(190, 47, 47);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.info{   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.hab-tema{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+
+.cor-tema-text{
+    color: rgb(190, 47, 47);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.cor-tema-hab{
+    color: rgb(190, 47, 47);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+
+.rodape{
+    color: #fff;
+    background: #000;
+}
+
+.rodape h4 {
+    font-size: 18px;   
+    margin-bottom: 4px; 
+    
+}
+
+.rodape p, .rodape .nav-link {
+    font-size: 17px;  
+}
+
+.rodape .nav-item {
+    margin-bottom: 3px;  
+}
+
+

@@ -1,0 +1,42 @@
+.topo{
+    padding: 20px 0;
+    position: relative;
+    background: #f5eeba85;
+
+} 
+
+
+.texto{
+    background: #ffefd5;
+
+}
+
+
+.btn{
+    text-align: right;
+}
+
+.rodape{
+    color: #fff;
+    background: #000;
+}
+
+
+.rodape h4 {
+    font-size: 18px;   
+    margin-bottom: 4px;  
+    
+}
+
+.rodape p, .rodape .nav-link {
+    font-size: 17px;  
+}
+
+.rodape .nav-item {
+    margin-bottom: 3px;  
+}
+
+.mapa{
+
+    border-radius: 0cap;
+}

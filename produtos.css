@@ -1,0 +1,73 @@
+.topo{
+    padding: 20px 0;
+    position: relative;
+    background: #f5eeba85;
+
+}
+
+.texto{
+    background: #ffefd5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+
+}
+
+
+.carousel-control-prev, .carousel-control-next {
+    font-size: 2rem;                  
+    background-color: #000; 
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: rgba(0,0,0,0.7); 
+}
+
+.btn{
+    text-align: center;
+}
+
+
+#quantidade {
+    width: 60px;  
+    text-align-last: center; 
+
+}
+
+.card p, .card h2 {
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column; 
+    height: 100%; 
+}
+
+.card .carousel {
+    flex-grow: 1; 
+}
+ 
+.card p, .card h2, .card label, .card select, .card button {
+    margin: 10px 0; 
+}
+
+.rodape{
+    color: #fff;
+    background: #000;
+}
+
+
+.rodape h4 {
+    font-size: 18px;   
+    margin-bottom: 4px;  
+    
+}
+
+.rodape p, .rodape .nav-link {
+    font-size: 17px;  
+}
+
+.rodape .nav-item {
+    margin-bottom: 3px;  
+}

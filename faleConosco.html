@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+        <meta charset="UTF-8">
+        <title>Fale Conosco</title>
+        <link rel="stylesheet" type="text/css" href="faleConosco.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    
+    </head>
+
+    <body>
+        <header class="topo shadow-sm" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <img class= "d-block w-50 h-30" src="imagens/logoamare.png" alt="Logotipo">
+                    </div>
+                <div class="col-8">
+                      <nav class="navbar navbar-light d-md-none">
+                        <div class="container-fluid justify-content-end">
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                            data-bs-target="#menuMobile">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                        </div>
+                      </nav>
+                    <div class="d-none d-md-block">
+                    <nav class="nav justify-content-end">
+                    <a class="nav-link" href="index.html"> Home </a>
+                    <a class="nav-link" href="produtos.html"> Produtos </a>
+                    <a class="nav-link" href="faleConosco.html"> Fale Conosco </a>
+                    <a class="nav-link" href="trabConosco.html"> Trabalhe Conosco </a>
+                    <a class="nav-link" href="quemSou.html"> Sobre mim </a>
+                    <a class="btn btn-primary rounded-pill" href="#"> (81) 95555-5555</a>
+                    </nav>
+                    </div>
+                </div>
+    
+                <div class="col-12">
+                    <div class="collapse" id="menuMobile">
+                    <nav class="nav flex-column justify-content-end">
+                        <a class="nav-link" href="index.html"> Home </a>
+                        <a class="nav-link" href="produtos.html"> Produtos </a>
+                        <a class="nav-link" href="faleConosco.html"> Fale Conosco </a>
+                        <a class="nav-link" href="trabConosco.html"> Trabalhe Conosco </a>
+                        <a class="nav-link" href="quemSou.html"> Sobre mim </a>
+                        <a class="btn btn-primary rounded-pill" href="#"> (81) 95555-5555</a>
+                        </nav>
+                    </div>
+                </div>
+    
+                </div>
+            </div>
+        </header>
+    
+    
+    <div class="container-fluid texto d-flex justify-content-center align-items-center" >
+        <div class="row">
+
+            <form id="formularioFaleConosco">
+
+                <div class="col-10  mb-3 mt-3">
+                    <label class="form-label" for="input-nome"> Seu nome: </label>
+                    <input class="form-control" type="text" name="nome" required placeholder="Digite seu nome" id="input-nome">
+                    <label class="form-label mt-3" for="email"> Seu email: </label>
+                    <input class="form-control" type="email" name="email" required placeholder="Digite seu email" id="email">
+                    <label class="form-label mt-3  col-12" for="tel">Telefone: </label>
+                    <input type="tel" name="tel" id="tel" required placeholder="(XX) XXXXX-XXXX" class="form-control">
+                </div> 
+            
+
+                <div class="mb-3 col-10">
+                    <label for="mensagem" class="form-label" >Deixe sua mensagem: </label>
+                    <textarea class="form-control" id="mensagem" required rows="3"></textarea>
+                </div>
+                
+                <div class="d-flex justify-content-start mt-3 mb-3">
+                    <button class="btn btn-outline-primary" type="submit"> Enviar </button>
+                </div>
+            </form>
+            
+
+                <iframe class ="col-10 mt-3 mb-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.3227103136155!2d-34.880234924205126!3d-8.068529580636929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab199d6400718f%3A0x99d545cf2a807759!2sMercado%20de%20S%C3%A3o%20Jos%C3%A9%20-%20Recife!5e0!3m2!1spt-BR!2sbr!4v1694636883210!5m2!1spt-BR!2sbr" 
+                width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <script>
+            document.getElementById('formularioFaleConosco').addEventListener('submit', function(e) {
+                e.preventDefault(); 
+        
+                if (this.checkValidity()) { 
+                    alert("Questionário Enviado!");
+                    this.submit(); 
+                }
+            });
+        </script>
+        
+
+        <footer class="rodape" id="rodape">
+            <div class="container">
+        <div class="row">
+                        <div class="col-3 col-md-3 mt-3 mb-3">
+                            <h4> ENDEREÇO </h4>
+                            <p> Praça Dom Vital</p>
+                            <p> São José </p>
+                            <p> Recife - PE</p>
+                        </div>
+                        <div class="col-3 col-md-3 mt-3 mb-3">
+                            <h4> CONTATOS </h4>
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                  <a class="nav-link active" aria-current="page" href="faleConosco.html"> Fale Conosco</a>
+                                </li>
+                        
+                              </ul>
+                        </div>
+                        <div class="col-3 col-md-3 mt-3 mb-3">
+                            <h4> NOSSOS PRODUTOS </h4>
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                  <a class="nav-link active" aria-current="page" href="produtos.html">Produtos</a>
+                                </li>
+                                
+                              </ul>
+                        </div>
+                        <div class="col-3 col-md-3 mt-3 mb-3">
+                            <h4> VAGAS DE EMPREGO </h4>
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                  <a class="nav-link active" aria-current="page" href="trabConosco.html"> Trabalhe Conosco </a>
+                                </li>
+                                
+                              </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+.topo{
+    padding: 20px 0;
+    position: relative;
+    background: #f5eeba85;
+}
+
+
+
+.img{
+    position: fixed;
+    top: 150px;      
+    right: 250px;    
+    width: 150px;   
+    height: 150px;
+    
+
+}
+
+.formulario{
+    color: #323232;
+    background: #ffefd5;
+    position: center;
+
+
+}
+
+.texto{
+    background-color: #ffefd5;
+}
+
+
+.acordo{
+    font-size: 18px;
+}
+
+
+.rodape{
+    color: #fff;
+    background: #000;
+}
+
+
+.rodape h4 {
+    font-size: 18px;   
+    margin-bottom: 4px;  
+    
+}
+
+.rodape p, .rodape .nav-link {
+    font-size: 17px;  
+}
+
+.rodape .nav-item {
+    margin-bottom: 3px;  
+}

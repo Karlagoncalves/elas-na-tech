@@ -1,0 +1,121 @@
+.topo{
+    padding: 10px 0;
+    position: relative;
+    background: #f5eeba85;
+
+}
+
+.banner-topo{
+    background: #f0f0fb;
+    padding-top: 20px;
+}
+
+.banner-topo .img-destaque{
+    max-width: 300px;
+
+}
+
+.cor-tema{
+    color: rgb(190, 47, 47);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+}
+
+.cor-tema-gato{
+    color: rgb(190, 47, 47);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+.gato-cat{
+    color: rgb(0,0,0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.nossos-clientes{
+    color: rgb(190, 47, 47);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+
+}
+.text-index {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+
+}
+
+.destaque {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.rodape{
+    color: #fff;
+    background: #000;
+}
+
+.rodape h4 {
+    font-size: 18px;   
+    margin-bottom: 4px;  
+    
+}
+
+.rodape p, .rodape .nav-link {
+    font-size: 17px;  
+}
+
+.rodape .nav-item {
+    margin-bottom: 3px;  
+}
+
+
+/* imagem: https://br.freepik.com/fotos-vetores-gratis/gato-png */
+
+
+/* PATELA CORES
+
+Azul Suave (Evoca calma e confiabilidade):
+
+RGB: 173, 216, 230
+CSS: rgb(173, 216, 230)
+Alternativa: #ADD8E6
+Rosa Pastel (Ternura e carinho):
+
+RGB: 255, 182, 193
+CSS: rgb(255, 182, 193)
+Alternativa: #FFB6C1
+Creme (Neutro e aconchegante, como o pelo de muitos gatos):
+
+RGB: 255, 239, 213
+CSS: rgb(255, 239, 213)
+Alternativa: #FFEFD5
+Cinza Suave (Remete ao pelo de gatos e dá uma sensação de sofisticação):
+
+RGB: 211, 211, 211
+CSS: rgb(211, 211, 211)
+Alternativa: #D3D3D3
+Verde Aquarela (Contraste suave e também remete à ideia de gatos com olhos verdes):
+
+RGB: 152, 251, 152
+CSS: rgb(152, 251, 152)
+Alternativa: #98FB98
+
+Cor Primária de Texto (para a maioria do conteúdo, como corpo do texto):
+
+Cinza Escuro:
+RGB: 50, 50, 50
+CSS: rgb(50, 50, 50)
+Alternativa: #323232
+Este cinza escuro é quase preto, o que o torna versátil para a maioria dos fundos, sem ser tão duro quanto o preto puro.
+
+Cor Secundária de Texto (para textos auxiliares, legendas ou notas):
+
+Cinza Médio:
+RGB: 120, 120, 120
+CSS: rgb(120, 120, 120)
+Alternativa: #787878
+Links ou Call-to-Actions:
+
+Azul Suave (já sugerido):
+RGB: 173, 216, 230
+CSS: rgb(173, 216, 230)
+Alternativa: #ADD8E6 */
